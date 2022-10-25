@@ -1,0 +1,37 @@
+*{
+    background-color: #EEEEEE;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: #ffffff;
+    background: #800000;
+    
+}
+
+p{
+    color: #838383;
+}
+
+p>strong{
+    color:#000;
+}
+.space{
+    margin-left: 5px;
+    padding-left: 5px;
+    background-color: #ddffff;
+}
+
+h2{
+    background-color: #ddffff;
+    
+}
+
+
+
+.blue{
+    background-color: #2196F3;
+    color: #2196F3;
+    padding-right: 1px;    
+}
