@@ -1,0 +1,29 @@
+body{
+    font-family: sans-serif;
+}
+
+label{
+    padding: 10px;
+    font-weight: bold;
+}
+
+input{
+    background-color: #4CAF50;
+    margin: 10px;
+}
+
+select{
+    background-color: #4CAF50;
+    margin: 10px;
+}
+
+fieldset{
+    margin: 10px;
+    border-radius: 50px;
+    border-color: #327535;
+    border-width: 3px;
+}
+
+#foto{
+    background-color: #fff;
+}
