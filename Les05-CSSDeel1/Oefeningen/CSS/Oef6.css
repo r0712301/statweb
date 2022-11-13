@@ -1,0 +1,32 @@
+body{
+    margin-right: none;
+    padding-right: none;
+}
+
+ul{
+    background-color: #333333;
+    list-style-type: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    
+}
+
+li{
+    
+    display: inline;
+    
+}
+li a{
+    padding: 20px;
+    
+    text-decoration: none;
+    color: #fff;
+}
+
+li a:hover{
+    background-color: #04AA6D;
+}
+li a:active{
+    background-color: #04AA6D;
+}
