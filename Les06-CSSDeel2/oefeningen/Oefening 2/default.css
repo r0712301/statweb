@@ -1,0 +1,30 @@
+.wit {
+    background-color: #fff;
+    height: 300px;
+    width: 50%;
+    padding: 5px;
+    
+}
+
+.rood {
+    background-color: red;
+    height: 200px;
+    width: 75%;
+    padding: 5px;
+    margin: 0px;
+}
+
+.geel {
+    background-color: yellow;
+    height: 100px;
+    width: 50%;
+    padding: 0px;
+    margin: 0px;
+
+}
+p{
+    
+}
+body {
+    background-color: gray;
+}

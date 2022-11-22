@@ -1,0 +1,9 @@
+.box{
+    align-items: center;
+    padding: 10px;
+    width: 300px;
+    height: auto;
+    margin: auto;
+    background-color: blue;
+    color: #fff;
+}
