@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kompas</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+        .container {
+            position: relative;
+            background-image: url(img/kompas.jpg);
+            background-color: #cccccc;
+            /* Used if the image is unavailable */
+            height: 500px;
+            /* You must set a specified height */
+            background-position: center;
+            /* Center the image */
+            background-repeat: no-repeat;
+            /* Do not repeat the image */
+            background-size: cover;
+            z-index: -1;
+        }
+        *{
+            font-family: 'Dancing Script', cursive;
+        }
+
+
+        .noord {
+            position: absolute;
+            top: 0;
+            left: 49%;
+            color: white;
+            /* transform: translateX(50%); */
+        }
+
+        .oost {
+            position: absolute;
+            right: 0;
+            top: 49%;
+            color: white;
+        }
+
+        .zuid {
+            position: absolute;
+            bottom: 0;
+            left: 49%;
+            color: white;
+        }
+
+        .west {
+            position: absolute;
+            left: 0;
+            top: 49%;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="noord">Noord</div>
+        <div class="oost">Oost</div>
+        <div class="zuid">Zuid</div>
+        <div class="west">West</div>
+    </div>
+
+
+</body>
+
+</html>
