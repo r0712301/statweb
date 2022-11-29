@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .headers {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100vw;
+        }
+
+        header {
+            flex: 33%;
+            padding: 10px;
+        }
+        #header1{
+background-color: turquoise;
+color: #000;
+        }
+
+        #header2{
+            background-color: mediumorchid;
+        }
+
+        #header3{
+            background-color: green;
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        nav {
+            flex: 25%;
+            background-color: yellow;
+        }
+
+        main{
+            flex:25%;
+        }
+
+        nav>div {
+            flex-wrap: wrap;
+            flex-direction: column;
+            color: white;
+        padding: 14px 20px;
+        text-decoration: none;
+        text-align: center;
+        }
+        #menu1{
+            background-color: teal;
+        }
+        #menu2{
+            background-color: green;
+        }
+        #menu3{
+            background-color: purple;
+        }
+        .footers{
+            flex-wrap: wrap;
+            display: flex;
+        }
+        footer{
+            flex: 50%;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="headers">
+            <header id="header1">Header</header>
+            <header id="header2">Header</header>
+            <header id="header3">Header</header>
+        </div>
+
+        <div class="row">
+            <nav>
+                <div id="menu1">Menu1</div>
+                <div id="menu2">Menu2</div>
+                <div id="menu3">Menu3</div>
+                
+            </nav>
+
+            <main>Body</main>
+            <main>Body</main>
+            <main>Body</main>
+
+        </div>
+        <div class="footers">
+            <footer>Footer</footer>
+            <footer>Footer</footer>
+        </div>
+    </div>
+</body>
+
+</html>
